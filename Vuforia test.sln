@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E96CF16E-02D4-9E18-1127-392546FD1229}") = "Vuforia test", "Assembly-CSharp.csproj", "{201FA17E-A626-73F0-CC19-6DC54602306E}"
+EndProject
+Project("{E96CF16E-02D4-9E18-1127-392546FD1229}") = "Vuforia test", "Assembly-CSharp-Editor.csproj", "{DE8475B1-135E-CEE7-C11B-801892E71105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{201FA17E-A626-73F0-CC19-6DC54602306E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201FA17E-A626-73F0-CC19-6DC54602306E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201FA17E-A626-73F0-CC19-6DC54602306E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201FA17E-A626-73F0-CC19-6DC54602306E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8475B1-135E-CEE7-C11B-801892E71105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8475B1-135E-CEE7-C11B-801892E71105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8475B1-135E-CEE7-C11B-801892E71105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8475B1-135E-CEE7-C11B-801892E71105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
