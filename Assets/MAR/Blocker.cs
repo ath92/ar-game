@@ -28,7 +28,9 @@ public class Blocker : MonoBehaviour {
 
 		foreach (Touch touch in Input.touches) {
 			if (touch.phase == TouchPhase.Began) {
+				Physics.gravity = -Sphere.transform.up * 10.0f;
 				Sphere.GetComponent<Rigidbody> ().isKinematic = false;
+
 			}
 		}
 
